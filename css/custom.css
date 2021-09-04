@@ -1,0 +1,158 @@
+body, html{
+    font-family: 'Raleway', sans-serif;
+}
+
+#header{
+	width: 100%;
+	background-color: var(--dark);
+	transition: background ease-out 0.2s;
+}
+#header .navbar{
+	background-color: var(--dark);
+}
+
+#header .navbar-collapse{
+	width:  auto;
+}
+
+#header .nav-link{
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 15px;
+	margin-left: 15px;
+	color: var(--secondary);
+}
+
+#header .titulo-text{
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--primary-dark);
+}
+
+#header .nav-link:hover{
+	font-weight: bold;
+	border-bottom:  solid 2px var(--primary-dark);
+	color: var(--primary-dark);
+}
+
+body{
+    background-color: var(--dark) ;
+}
+
+.opcoes-nav{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--secondary);
+}
+.imagem-carrossel-1{
+    object-fit: cover;
+    object-position: 0 40%;
+    height: 600px;
+    
+}
+.imagem-carrossel-2{
+    object-fit: cover;
+    object-position: 0 20%;
+    height: 600px;
+    
+}
+.imagem-carrossel-3{
+    object-fit: cover;
+    object-position: 0 10%;
+    height: 600px;
+    
+}
+
+.titulo-body{
+    color: var(--primary);
+    font-weight: bold;
+}
+.titulo-produtos{
+    color: var(--light);
+}
+.card-title{
+    font-weight:normal;
+    font-size: 18px;
+    color: var(--secondary);  
+}
+.card-text{
+    font-weight:bold;
+    font-size: 30px;
+    color:var(--primary); 
+}
+.btn{
+    font-weight:bold;
+    text-transform: uppercase;
+    color: var(--secondary);
+    background-color:var(--primary);
+    border: transparent;
+}
+.btn:hover{
+  background-color: var(--secondary);
+  color: var(--primary);
+
+}
+.card-img-top{
+    object-fit: cover;
+    object-position: 0 0 10% 10%;
+    border-radius: 10px;
+    align-self: center;
+    height: 300px;
+    width: 250px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.map{
+    width: 100%;
+    
+}
+.imagem-rodape{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    font-size: 2em;
+    background-image: url(../assets/rodape.png);
+}
+.title-footer{
+    font-weight:bold;
+    font-size: 1.5em;
+    color: var(--secondary); 
+}
+.copyright{
+    color: var(--secondary);
+    font-size: 0.5em;
+}
+.element-item img{
+    transition:  all ease-out 0.2s;
+}
+.element-item img:hover{
+  box-shadow: 0px 0px 10px 0px var(--black);
+  transform: scale(1.05);
+}
+.contato{
+    padding-top: 90px;
+}
+.card-contato{
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+}
+.map-contato{
+    width: 100%;
+    height: 420px;
+}
+#mensagem{
+    height: 155px;
+    resize: none; 
+}
+.posicao-rodape{
+    position: absolute;
+    width: 100%;
+}

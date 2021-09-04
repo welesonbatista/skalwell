@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!--ARQUIVO CSS-->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>SkalWell - Cervejas Artesanais </title>
+</head>
+
+<!--CORPO DO SITE-->
+
+<body>
+  <header id="header">
+    <!--BARRA DE NAVEGAÇÃO-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand titulo-text" id="title" href="home.html">SKALWELL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li><a class="nav-link opcoes-nav" aria-current="page" href="home.html">Página Inicial</a></li>
+            <li><a class="nav-link opcoes-nav" href="#produtos">Produtos</a></li>
+            <li><a class="nav-link opcoes-nav" href="# class=" btn btn-primary data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Entrar</a></li>
+            <li><a class="nav-link opcoes-nav" href="#redes-sociais">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--//BARRA DE NAVEGAÇÃO-->
+  </header>
+
+  <!--CARROSSEL DE IMAGENS-->
+  <figure id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="6000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/carrossel/carrossel-img-1.png" class="d-block w-100 imagem-carrossel-1"
+          alt="imagem do carrossel 1">
+        <div class="carousel-caption d-none d-md-block h-25">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carrossel/carrossel-img-2.jpg" class="d-block w-100 imagem-carrossel-2"
+          alt="imagem do carrossel 2">
+        <div class="carousel-caption d-none d-md-block h-25">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/carrossel/carrossel-img-3.jpg" class="d-block w-100 imagem-carrossel-3"
+          alt="imagem do carrossel 3">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </figure>
+  <!--//CARROSSEL DE IMAGENS-->
+
+  <!--//PRINCIPAL-->
+  <main>
+    <section id="titulo" class="p-3">
+      <h1 class="titulo-body text-center ">Nossos produtos</h1>
+      <h5 class="titulo-body text-center">O melhor da artesanal!</h5>
+    </section>
+
+    <!--PRODUTOS-->
+    <section id="produtos">
+      <h3 class="titulo-produtos text-center">Cervejas</h3>
+      <div class="container text-center">
+        <div class="row grid justify-content-center gx-1 element-item">
+          <!--PRODUTO 1-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem ;">
+            <a href="assets/produtos/card-produto-1.jpg" class=" popup-link card-img-top ">
+              <img src="assets/produtos/card-produto-1.jpg" class="card-img-top" alt="imagem produto 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Cerveja Artesanal Branca</h5>
+              <p class="card-text">R$ 28,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--PRODUTO 2-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/produtos/card-produto-2.jpg" class=" card-img-top popup-link">
+              <img src="assets/produtos/card-produto-2.jpg" class="card-img-top" alt="imagem produto 2">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Cerveja Artesanal Verde</h5>
+              <p class="card-text">R$ 30,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--PRODUTO 3-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/produtos/card-produto-3.jpg" class=" card-img-top popup-link">
+              <img src="assets/produtos/card-produto-3.jpg" class="card-img-top" alt="imagem produto 3">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Cerveja Artesanal Rosa</h5>
+              <p class="card-text">R$ 35,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--PRODUTO 4-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/produtos/card-produto-4.jpg" class=" card-img-top popup-link">
+              <img src="assets/produtos/card-produto-4.jpg" class="card-img-top" alt="imagem produto 4">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Cerveja Artesanal Lata</h5>
+              <p class="card-text">R$ 25,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//PRODUTOS-->
+
+    <!--KITS-->
+    <section id="kits">
+      <h3 class="titulo-produtos text-center">Kits</h3>
+      <div class="container text-center">
+        <div class="row grid justify-content-center gx-1">
+          <!--KIT 1-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem ;">
+            <a href="assets/kits/card-kit-1.jpg" class=" card-img-top popup-link">
+              <img src="assets/kits/card-kit-1.jpg" class="card-img-top" alt="imagem kit 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Tres cervejas brancas e uma em lata</h5>
+              <p class="card-text">R$ 50,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--KIT 2-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/kits/card-kit-2.jpg" class=" card-img-top popup-link">
+              <img src="assets/kits/card-kit-2.jpg" class="card-img-top" alt="imagem kit 2">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Tres cervejas rosas e uma em lata</h5>
+              <p class="card-text">R$ 52,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--KIT 3-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/kits/card-kit-3.jpg" class=" card-img-top popup-link">
+              <img src="assets/kits/card-kit-3.jpg" class="card-img-top" alt="imagem kit 3">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Duas cervejas brancas e uma em lata</h5>
+              <p class="card-text">R$ 48,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--KIT 4-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/kits/card-kit-4.jpg" class=" card-img-top popup-link">
+              <img src="assets/kits/card-kit-4.jpg" class="card-img-top" alt="imagem kit 4">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Duas cervejas verdes e uma em lata</h5>
+              <p class="card-text">R$ 58,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//KITS-->
+
+    <!--ACESSORIOS-->
+    <section id="acessorios">
+      <h3 class="titulo-produtos text-center">Acessorios</h3>
+      <div class="container text-center">
+        <div class="row grid justify-content-center gx-1">
+
+          <!--ACESSORIOS 1-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem ;">
+            <a href="assets/acessorios/card-acessorio-1.png" class=" card-img-top popup-link">
+              <img src="assets/acessorios/card-acessorio-1.png" class="card-img-top" alt="imagem acessorio 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Copo</h5>
+              <p class="card-text">R$ 15,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--ACESSORIOS 2-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/acessorios/card-acessorio-2.png" class=" card-img-top popup-link">
+              <img src="assets/acessorios/card-acessorio-2.png" class="card-img-top" alt="imagem acessorio 2">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Abridor</h5>
+              <p class="card-text">R$ 10,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--ACESSORIOS 3-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/acessorios/card-acessorio-3.png" class=" card-img-top popup-link">
+              <img src="assets/acessorios/card-acessorio-3.png" class="card-img-top" alt="imagem acessorio 3">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Abridor</h5>
+              <p class="card-text">R$ 10,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <!--ACESSORIOS 4-->
+          <div class="card border-0 bg-transparent col-6 col-md-2 p-5 element-item" style="width: 17rem;">
+            <a href="assets/acessorios/card-acessorio-4.png" class=" card-img-top popup-link">
+              <img src="assets/acessorios/card-acessorio-4.png" class="card-img-top" alt="imagem acessorio 4">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Balde</h5>
+              <p class="card-text">R$ 18,00</p>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//ACESSORIOS-->
+
+    <div id="redes-sociais" class="text-center">
+      <h5 class="titulo-body">Nos acompanhe nas redes:</h5>
+      <div class="text-center">
+        <a href="https://www.facebook.com/profile.php?id=100072134824643"target=_blank><img src="assets/contato/facebook.svg"
+            class="icon m-3" alt="icone do facebook"></a>
+        <a href="https://api.whatsapp.com/send?phone=5564981453708&text=Olá,%20Skalwell"target=_blank><img
+            src="assets/contato/whatsapp.svg" class="icon m-3" alt="icone do whatsapp"></a>
+        <a href="https://www.instagram.com/weleson_batista/?hl=pt-br"target=_blank><img src="assets/contato/instagram.svg"
+            class="icon m-3" alt="icone do instagram"></a>
+      </div>
+      <h6 class="titulo-body p-5"> R. Jocelim, R. Juscelino Gomes Píres, 2300 - Nossa Senhora de Fátima, Catalão - GO
+      </h6>
+    </div>
+
+    <!--LOCAL E CONTATO-->
+    <div id="contato-local">
+      <section class="contato">
+        <div class="container p-3">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <!--CONTATO-->
+              <div class="card card-contato">
+                <div class="card-body ">
+                  <h1>Contato</h1>
+                  <form id="form-contato">
+                    <div class="form-group">
+                      <label for="nome">Nome:</label>
+                      <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">E-mail:</label>
+                      <input class="form-control" type="email" name="email" id="email"
+                        placeholder="Exemplo@dominio.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="mensagem">Mensagem:</label>
+                      <textarea class="form-control" name="mensagem" id="mensagem"
+                        placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group text-center p-3">
+                      <button type="submit" class="btn btn-primary">ENVIAR</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!--//CONTATO-->
+            </div>
+            <!--LOCAL-->
+            <div class="col-12 col-md-6">
+              <div class="card card-contato">
+                <map class="card-body">
+                  <iframe class="map-contato"
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9016.499568831003!2d-47.93467444286763!3d-18.165246002845436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srodoshopping%20catal%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1630787462610!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </map>
+              </div>
+            </div>
+            <!--//LOCAL-->
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--//LOCAL E CONTATO-->
+
+  </main>
+  <!--//PRINCIPAL-->
+
+  <!-- MODAL -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Entre com seu cadastro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Exemplo@dominio.com">
+              <div id="emailHelp" class="form-text">Nunca compartinhe seu endereço com alguem.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Me manter conectado.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--//MODAL -->
+
+  <!--RODAPE-->
+  <footer class="posicao-rodape">
+    <p class="title-footer">SKALWELL</p>
+    <p class="copyright p-3">&copy; Copyright 2021 - Todos os direitos reservados</p>
+  </footer>
+  <!--//RODAPE-->
+
+  <!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/magnify/jquery.magnific-popup.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/formilario.js"></script>
+
+</body>
+<!--//CORPO DO SITE-->
+
+</html>
